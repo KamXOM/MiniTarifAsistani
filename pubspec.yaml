@@ -1,0 +1,34 @@
+name: recipe_app
+description: A comprehensive cooking companion app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.1.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.1
+  cached_network_image: ^3.3.0
+  flutter_local_notifications: ^15.1.1
+  url_launcher: ^6.1.14
+  share_plus: ^7.1.0
+  intl: ^0.18.1
+  go_router: ^10.1.2
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
